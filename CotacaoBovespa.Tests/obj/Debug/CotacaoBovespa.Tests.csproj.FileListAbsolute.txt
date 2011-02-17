@@ -1,0 +1,1 @@
+c:\users\alberto chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\ResolveAssemblyReference.cache
