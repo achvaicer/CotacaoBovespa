@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using HtmlAgilityPack;
 using System.IO;
 using System.Net;
 using System.Text;
+using HtmlAgilityPack;
 
 namespace CotacaoBovespa.Models
 {
@@ -57,7 +55,7 @@ namespace CotacaoBovespa.Models
                 }
 
                 DateTime data = new DateTime();
-                if (DateTime.TryParse(funcao, out data))
+                if (DateTime.TryParse(funcao, out data) && data != DateTime.Today)
                 {
                     StreamReader reader = FazWebRequest("http://au.rd.yahoo.com/finance/quotes/internal/historical/download/*http://ichart.finance.yahoo.com/table.csv?s=" + codigoAcao + ".SA&d=" + (data.Month - 1).ToString() + "&e=" + data.Day.ToString() + "&f=" + data.Year.ToString() + "&g=d&a=" + (data.Month - 1).ToString() + "&b=" + data.Day.ToString() + "&c=" + data.Year.ToString() + "&ignore=.csv");
                     reader.ReadLine();
@@ -68,7 +66,7 @@ namespace CotacaoBovespa.Models
 
                 htmlDoc.Load(FazWebRequest("https://secure.apligraf.com.br/webfeed/viptrade/evolucao001.php?codpad=" + codigoAcao));
                 if (funcao == "hora")
-                    return (htmlDoc.DocumentNode.SelectSingleNode("\\div")).ChildNodes[4].InnerText.Trim();
+                    return (htmlDoc.DocumentNode.SelectSingleNode("//div")).ChildNodes[4].InnerText.Trim();
                 if (funcao == "strike")
                 {
                     var ar = (htmlDoc.DocumentNode.SelectSingleNode("//div")).ChildNodes[0].InnerText.Trim().Split(' ');
