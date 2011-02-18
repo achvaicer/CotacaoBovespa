@@ -1,1 +1,5 @@
-c:\users\alberto chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\CotacaoBovespa.Tests.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\CotacaoBovespa.Tests.pdb
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\CotacaoBovespa.Tests.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\CotacaoBovespa.Tests.pdb

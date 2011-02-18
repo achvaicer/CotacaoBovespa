@@ -19,10 +19,10 @@ namespace CotacaoBovespa
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+                new { controller = "CotacaoBovespa", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
-            routes.MapRoute("CotacaoBovespa", "Cotacao.aspx", new { controller = "CotacaoBovespa", action = "Index" });
+            //routes.MapRoute("CotacaoBovespa", "Cotacao.aspx", new { controller = "CotacaoBovespa", action = "Index" });
 
         }
 

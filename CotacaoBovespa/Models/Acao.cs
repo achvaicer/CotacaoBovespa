@@ -39,7 +39,7 @@ namespace CotacaoBovespa.Models
             }
         }
 
-        public string Cotacao(string codigoAcao, string funcao = "Preco")
+        public string Cotacao(string codigoAcao, string funcao)
         {
             HtmlAgilityPack.HtmlDocument htmlDoc = new HtmlDocument();
 

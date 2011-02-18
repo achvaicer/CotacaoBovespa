@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Alberto Chvaicer\Documents\Visual Studio 2010\Publish\CotacaoBovespa" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/CotacaoBovespa.pdb" publishTime="02/17/2011 23:20:16" />
+    <file relUrl="bin/HtmlAgilityPack.pdb" publishTime="02/16/2011 23:40:00" />
+    <file relUrl="bin/HtmlAgilityPack.xml" publishTime="02/16/2011 23:40:00" />
+    <file relUrl="bin/CotacaoBovespa.dll" publishTime="02/17/2011 23:20:16" />
+    <file relUrl="bin/HtmlAgilityPack.dll" publishTime="02/16/2011 23:40:00" />
+    <file relUrl="Web.config" publishTime="02/17/2011 23:20:50" />
+    <file relUrl="Global.asax" publishTime="02/16/2011 23:12:03" />
+    <file relUrl="Cotacao.aspx" publishTime="02/17/2011 22:45:19" />
+  </publishProfile>
+</publishData>
