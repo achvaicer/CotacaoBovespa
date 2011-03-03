@@ -41,6 +41,9 @@ namespace CotacaoBovespa.Models
         
         public string Cotacao(string codigoAcao, string funcao)
         {
+            if (string.IsNullOrEmpty(codigoAcao))
+                return "";
+
             if (string.IsNullOrEmpty(funcao))
                 funcao = "preco";
 
