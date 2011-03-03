@@ -3,3 +3,12 @@ C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\C
 C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\CotacaoBovespa.Tests.dll
 C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\obj\Debug\CotacaoBovespa.Tests.pdb
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\CotacaoBovespa.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\nunit.mocks.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\pnunit.framework.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\CotacaoBovespa.pdb

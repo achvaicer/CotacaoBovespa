@@ -38,9 +38,12 @@ namespace CotacaoBovespa.Models
                 return null;
             }
         }
-
+        
         public string Cotacao(string codigoAcao, string funcao)
         {
+            if (string.IsNullOrEmpty(funcao))
+                funcao = "preco";
+
             HtmlAgilityPack.HtmlDocument htmlDoc = new HtmlDocument();
 
             try
