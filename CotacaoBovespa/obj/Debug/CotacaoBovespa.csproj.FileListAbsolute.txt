@@ -6,3 +6,7 @@ c:\users\alberto chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\C
 c:\users\alberto chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\obj\Debug\ResolveAssemblyReference.cache
 c:\users\alberto chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\obj\Debug\CotacaoBovespa.dll
 c:\users\alberto chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\obj\Debug\CotacaoBovespa.pdb
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\bin\GaDotNet.Common.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\bin\GoogleAnalyticsDotNet.Common.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\bin\GaDotNet.Common.pdb
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa\bin\GoogleAnalyticsDotNet.Common.pdb

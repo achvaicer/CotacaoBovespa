@@ -12,3 +12,5 @@ C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\C
 C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\HtmlAgilityPack.xml
 C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\CotacaoBovespa.pdb
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\GaDotNet.Common.dll
+C:\Users\Alberto Chvaicer\documents\visual studio 2010\Projects\CotacaoBovespa\CotacaoBovespa.Tests\bin\Debug\GaDotNet.Common.pdb
