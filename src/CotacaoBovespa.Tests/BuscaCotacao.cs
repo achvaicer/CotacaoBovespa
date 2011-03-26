@@ -124,14 +124,14 @@ namespace CotacaoBovespa.Tests
         public void bluechip_variacao()
         {
             var variacao = Cotacao(bluechip, "variacao");
-            Assert.IsTrue(Regex.IsMatch(variacao, @"^((\d{1,2})?([,][\d]{1,2})?){1}[%]{1}$"));
+            Assert.IsTrue(Regex.IsMatch(variacao, @"^(-?(\d{1,2})?([,][\d]{1,2})?){1}[%]{1}$"));
         }
 
         [Test]
         public void smallcap_variacao()
         {
             var variacao = Cotacao(smallcap, "variacao");
-            Assert.IsTrue(Regex.IsMatch(variacao, @"^((\d{1,2})?([,][\d]{1,2})?){1}[%]{1}$"));
+            Assert.IsTrue(Regex.IsMatch(variacao, @"^(-?(\d{1,2})?([,][\d]{1,2})?){1}[%]{1}$"));
         }
 
         [Test]

@@ -16,14 +16,13 @@ namespace CotacaoBovespa
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("CotacaoBovespa", "Cotacao.aspx", new { controller = "CotacaoBovespa", action = "Index" });
+
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "CotacaoBovespa", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
-
-            //routes.MapRoute("CotacaoBovespa", "Cotacao.aspx", new { controller = "CotacaoBovespa", action = "Index" });
-
         }
 
         protected void Application_Start()
