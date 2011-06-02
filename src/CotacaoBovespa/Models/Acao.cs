@@ -76,7 +76,7 @@ namespace CotacaoBovespa.Models
                 if (funcao == "strike")
                 {
                     var ar = (htmlDoc.DocumentNode.SelectSingleNode("//div")).ChildNodes[0].InnerText.Trim().Split(' ');
-                    return ar[ar.Length - 1].Trim();
+                    return ar[ar.Length - 3].Trim();
                 }
 
                 return htmlDoc.DocumentNode.SelectNodes("//td[@class='num'] | //td[@class='num pos'] | //td[@class='num neg']")[funcoes[funcao]].InnerText.Trim();
