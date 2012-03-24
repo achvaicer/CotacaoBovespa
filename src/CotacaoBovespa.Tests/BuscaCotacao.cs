@@ -70,10 +70,26 @@ namespace CotacaoBovespa.Tests
             Assert.IsInstanceOf<decimal>(preco);
         }
 
+        
+
         [Test]
         public void smallcap_maxima()
         {
             var preco = decimal.Parse(Cotacao(smallcap, "maxima"));
+            Assert.IsInstanceOf<decimal>(preco);
+        }
+
+        [Test]
+        public void bluechip_historica()
+        {
+            var preco = decimal.Parse(Cotacao(bluechip, "2011-10-20"));
+            Assert.IsInstanceOf<decimal>(preco);
+        }
+
+        [Test]
+        public void smallcap_historica()
+        {
+            var preco = decimal.Parse(Cotacao(smallcap, "2011-10-20"));
             Assert.IsInstanceOf<decimal>(preco);
         }
 

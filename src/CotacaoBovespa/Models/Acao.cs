@@ -64,10 +64,9 @@ namespace CotacaoBovespa.Models
                 if (DateTime.TryParse(funcao, out data) && data != DateTime.Today)
                 {
                     StreamReader reader = FazWebRequest("http://download.finance.yahoo.com/d/quotes.csv?s=" + codigoAcao + ".SA&d=" + (data.Month - 1).ToString() + "&e=" + data.Day.ToString() + "&f=" + data.Year.ToString() + "&g=d&a=" + (data.Month - 1).ToString() + "&b=" + data.Day.ToString() + "&c=" + data.Year.ToString() + "&f=sl1d1t1c1ohgv&e=.csv");
-                    reader.ReadLine();
 
                     var ar = reader.ReadLine().Split(',');
-                    return ar[4].Replace(".", ",").Trim();
+                    return ar[7].Replace(".", ",").Trim();
                 }
 
                 htmlDoc.Load(FazWebRequest("https://secure.apligraf.com.br/webfeed/viptrade/evolucao001.php?codpad=" + codigoAcao));
