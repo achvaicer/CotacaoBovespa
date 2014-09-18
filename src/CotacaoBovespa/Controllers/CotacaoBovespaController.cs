@@ -14,7 +14,7 @@ namespace CotacaoBovespa.Controllers
 
         public string Index(string codigoAcao, string funcao)
         {
-            return new Acao().Cotacao(codigoAcao, funcao);
+            return Acao.Cotacao(codigoAcao, funcao);
         }
 
     }

@@ -9,22 +9,20 @@ namespace CotacaoBovespa.Models
 {
     public class Acao
     {
-        private Dictionary<string, int> funcoes = new Dictionary<string, int>();
-
-        public Acao()
+        private static Dictionary<string, int> funcoes = new Dictionary<string, int>
         {
-            funcoes.Add("preco", 0);
-            funcoes.Add("variacao", 8);
-            funcoes.Add("oscilacao", 8);
-            funcoes.Add("volume", 6);
-            funcoes.Add("abertura", 4);
-            funcoes.Add("maxima", 2);
-            funcoes.Add("maximo", 2);
-            funcoes.Add("minima", 1);
-            funcoes.Add("minimo", 1);
-        }
+            { "preco", 0 },
+            { "variacao", 8 },
+            { "oscilacao", 8 },
+            { "volume", 6 },
+            { "abertura", 4 },
+            { "maxima", 2 },
+            { "maximo", 2 },
+            { "minima", 1 },
+            { "minimo", 1 },
+        };
 
-        private StreamReader FazWebRequest(string url)
+        private static StreamReader FazWebRequest(string url)
         {
             try
             {
@@ -39,7 +37,7 @@ namespace CotacaoBovespa.Models
             }
         }
         
-        public string Cotacao(string codigoAcao, string funcao)
+        public static string Cotacao(string codigoAcao, string funcao)
         {
             if (string.IsNullOrEmpty(codigoAcao))
                 return "";
