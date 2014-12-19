@@ -126,7 +126,7 @@ namespace CotacaoBovespa.Tests
         public void smallcap_volume()
         {
             var volume = Acao.Cotacao(smallcap, "volume");
-            Assert.IsTrue(Regex.IsMatch(volume, @"^(\d{1,3}.(\d{3}.)*\d{3}(\,\d{1,3})?|\d{1,3}(\,\d{3})?)$"));
+            Assert.IsTrue(Regex.IsMatch(volume, @"^((\d{1,3})*.*(\d{3}.)*\d{3}(\,\d{1,3})?|\d{1,3}(\,\d{3})?)$"));
         }
 
         [Test]
